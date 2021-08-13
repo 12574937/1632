@@ -5,66 +5,85 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: https://t.me/dafeiji100, server: 138.199.16.137, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: https://t.me/dafeiji100 2, server: 143.244.57.99, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
-  - {name: https://t.me/dafeiji100 3, server: 143.244.57.99, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://t.me/dafeiji100 4, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://t.me/dafeiji100 5, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://t.me/dafeiji100 6, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://t.me/dafeiji100 7, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://t.me/dafeiji100 8, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://t.me/dafeiji100 9, server: 138.199.16.137, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://t.me/dafeiji100 10, server: ss6.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
-  - {name: https://t.me/dafeiji100 11, server: 138.199.16.137, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
-  - {name: https://t.me/dafeiji100 12, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://t.me/dafeiji100 13, server: 89.37.95.15, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: https://t.me/dafeiji100 14, server: ss4.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: https://t.me/dafeiji100 15, server: 217.138.220.163, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: https://t.me/dafeiji100 16, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: https://t.me/dafeiji100 17, server: 138.199.16.137, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: https://t.me/dafeiji100 18, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://t.me/dafeiji100 19, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: https://t.me/dafeiji100 20, server: 152.89.160.213, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: https://t.me/dafeiji100 21, server: 91.232.105.253, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: https://t.me/dafeiji100 22, server: 138.199.16.137, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: https://t.me/dafeiji100 23, server: 5.189.202.16, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: https://t.me/dafeiji100 24, server: ss6.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
-  - {name: https://t.me/dafeiji100 25, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: https://t.me/dafeiji100 26, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://t.me/dafeiji100 27, server: 5.133.14.196, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: https://t.me/dafeiji100 28, server: 198.8.92.84, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://t.me/dafeiji100 29, server: 143.244.57.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: https://t.me/dafeiji100 30, server: 5.189.202.16, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy}
-  - {name: https://t.me/dafeiji100 31, server: 102.165.23.38, port: 36460, type: ss, cipher: aes-256-gcm, password: yUXad7DGF8L5cTShEpnp2N6z}
-  - {name: https://t.me/dafeiji100 32, server: 207.244.67.149, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: https://t.me/dafeiji100 33, server: 198.8.92.84, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: https://t.me/dafeiji100 34, server: 176.31.146.89, port: 4040, type: ss, cipher: aes-256-gcm, password: AMvZHPXhPk6t}
-  - {name: https://t.me/dafeiji100 35, server: 5.189.202.16, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: https://t.me/dafeiji100 36, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: https://t.me/dafeiji100 37, server: 143.244.57.99, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: https://t.me/dafeiji100 38, server: www.garmin.com, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: https://t.me/dafeiji100 39, server: 058.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 058.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: https://t.me/dafeiji100 40, server: 045.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 045.HK.AP.POP.BIGAIRPORT.NET}}
-  - {name: https://t.me/dafeiji100 41, server: 52.175.63.55, port: 10010, type: vmess, uuid: eb95b3eb-ceeb-424b-b70f-986292144364, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
-  - {name: https://t.me/dafeiji100 42, server: ip.codeforces.live, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /233blog, ws-headers: {Host: rn.ddns1312.top}}
-  - {name: https://t.me/dafeiji100 43, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: https://t.me/dafeiji100 44, server: 188.166.217.16, port: 443, type: vmess, uuid: 7a3128da-6fe9-4cc6-cfb7-b97fe387b82f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 188.166.217.16}}
-  - {name: https://t.me/dafeiji100 45, server: 104.18.8.157, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: https://t.me/dafeiji100 46, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: https://t.me/dafeiji100 47, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
-  - {name: https://t.me/dafeiji100 48, server: 104.16.149.48, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: https://t.me/dafeiji100 49, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: https://t.me/dafeiji100 50, server: 104.16.167.138, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: https://t.me/dafeiji100 51, server: 104.17.188.91, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
-  - {name: https://t.me/dafeiji100 52, server: 152.70.248.254, port: 35176, type: vmess, uuid: 4ca166ec-d6e6-4b92-9cec-ccdf0e9731c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: https://t.me/dafeiji100 53, server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}}
-  - {name: https://t.me/dafeiji100 54, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
-  - {name: https://t.me/dafeiji100 55, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: https://t.me/dafeiji100 56, server: 104.16.160.114, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: https://t.me/dafeiji100 57, server: 104.21.239.147, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: https://t.me/dafeiji100 58, server: 104.16.149.48, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: https://t.me/dafeiji100 59, server: 104.19.23.24, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
-  - {name: https://t.me/dafeiji100 60, server: 104.16.207.196, port: 443, type: vmess, uuid: e2cbac5f-b754-407b-a6cc-3205482f1fb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/Vincent-Jacksonvws?ed=2048", ws-headers: {Host: 567567.ga}}
+  - {name: https://t.me/dafeiji100, server: 118.107.244.114, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: https://t.me/dafeiji100 2, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 3, server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://t.me/dafeiji100 4, server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://t.me/dafeiji100 5, server: 208.78.41.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://t.me/dafeiji100 6, server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://t.me/dafeiji100 7, server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://t.me/dafeiji100 8, server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9}
+  - {name: https://t.me/dafeiji100 9, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 10, server: 138.199.16.137, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: https://t.me/dafeiji100 11, server: 138.199.16.137, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: https://t.me/dafeiji100 12, server: 138.199.16.137, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg}
+  - {name: https://t.me/dafeiji100 13, server: 193.29.106.61, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 14, server: 194.37.98.211, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: https://t.me/dafeiji100 15, server: 138.199.16.137, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B}
+  - {name: https://t.me/dafeiji100 16, server: 138.199.16.137, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://t.me/dafeiji100 17, server: ss2.ssrsub.one, port: 2443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: https://t.me/dafeiji100 18, server: 193.29.106.109, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://t.me/dafeiji100 19, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: https://t.me/dafeiji100 20, server: ss1.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: https://t.me/dafeiji100 21, server: ss2.ssrsub.one, port: 9443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
+  - {name: https://t.me/dafeiji100 22, server: 152.89.160.213, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: https://t.me/dafeiji100 23, server: 81.19.223.189, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: https://t.me/dafeiji100 24, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 25, server: 176.31.146.89, port: 4040, type: ss, cipher: aes-256-gcm, password: AMvZHPXhPk6t}
+  - {name: https://t.me/dafeiji100 26, server: 5.189.202.16, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: https://t.me/dafeiji100 27, server: 138.199.16.137, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3}
+  - {name: https://t.me/dafeiji100 28, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 29, server: 180.149.231.11, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 30, server: 45.248.76.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://t.me/dafeiji100 31, server: 195.47.194.70, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: https://t.me/dafeiji100 32, server: 5.189.202.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: https://t.me/dafeiji100 33, server: 185.153.151.104, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://t.me/dafeiji100 34, server: 5.189.202.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d}
+  - {name: https://t.me/dafeiji100 35, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: https://t.me/dafeiji100 36, server: 185.153.151.100, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: https://t.me/dafeiji100 37, server: 185.99.3.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: https://t.me/dafeiji100 38, server: 5.189.202.16, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: https://t.me/dafeiji100 39, server: 143.244.57.99, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: https://t.me/dafeiji100 40, server: 185.153.151.118, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 41, server: 198.8.92.84, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: https://t.me/dafeiji100 42, server: 195.158.249.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: https://t.me/dafeiji100 43, server: ss.au.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: kRAxb8hPUxS0}
+  - {name: https://t.me/dafeiji100 44, server: 207.244.67.149, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: https://t.me/dafeiji100 45, server: 042.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 042.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 46, server: 047.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 047.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 47, server: 044.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 044.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 48, server: 049.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 049.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 49, server: 045.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 045.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 50, server: 019.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 019.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 51, server: 048.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 048.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 52, server: 054.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 054.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 53, server: 68.183.182.145, port: 44334, type: vmess, uuid: 3752ec00-90d7-4c9e-986a-869981537e15, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 68.183.182.145}}
+  - {name: https://t.me/dafeiji100 54, server: 022.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 022.JP.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 55, server: 040.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 040.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 56, server: 015.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 015.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 57, server: 52.175.63.55, port: 10010, type: vmess, uuid: eb95b3eb-ceeb-424b-b70f-986292144364, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}}
+  - {name: https://t.me/dafeiji100 58, server: 028.JP.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 028.JP.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 59, server: 032.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 032.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 60, server: 012.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 012.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 61, server: 037.SG.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 037.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 62, server: 045.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 140fcbf2-6376-406b-ad68-3eaabf9dd4a4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 045.HK.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 63, server: 021.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 021.JP.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 64, server: 031.SG.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 031.SG.AP.POP.BIGAIRPORT.NET}}
+  - {name: https://t.me/dafeiji100 65, server: 188.166.217.16, port: 443, type: vmess, uuid: 7a3128da-6fe9-4cc6-cfb7-b97fe387b82f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 188.166.217.16}}
+  - {name: https://t.me/dafeiji100 66, server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: https://t.me/dafeiji100 67, server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}}
+  - {name: https://t.me/dafeiji100 68, server: 104.21.76.229, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: https://t.me/dafeiji100 69, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://t.me/dafeiji100 70, server: 104.16.148.48, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: https://t.me/dafeiji100 71, server: 104.19.23.24, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: https://t.me/dafeiji100 72, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://t.me/dafeiji100 73, server: 104.17.188.91, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: https://t.me/dafeiji100 74, server: 104.17.36.178, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: https://t.me/dafeiji100 75, server: 104.21.239.147, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-6666-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: "/The-Great-Awakening_vws?ed=2048", ws-headers: {Host: 567567.cf}}
+  - {name: https://t.me/dafeiji100 76, server: 104.16.160.114, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://t.me/dafeiji100 77, server: 104.19.45.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: https://t.me/dafeiji100 78, server: 104.16.148.27, port: 2082, type: vmess, uuid: ed47a606-0bb2-32d0-8cac-7a8f84cf9763, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /5hfgf/5hg, ws-headers: {Host: ru-1.sb-cloud.cf}}
+  - {name: https://t.me/dafeiji100 79, server: 057.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 91a2fcf4-939e-43cf-bb34-dfb4b9bf7862, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 057.HK.AP.POP.BIGAIRPORT.NET}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -131,6 +150,25 @@ proxy-groups:
       - https://t.me/dafeiji100 58
       - https://t.me/dafeiji100 59
       - https://t.me/dafeiji100 60
+      - https://t.me/dafeiji100 61
+      - https://t.me/dafeiji100 62
+      - https://t.me/dafeiji100 63
+      - https://t.me/dafeiji100 64
+      - https://t.me/dafeiji100 65
+      - https://t.me/dafeiji100 66
+      - https://t.me/dafeiji100 67
+      - https://t.me/dafeiji100 68
+      - https://t.me/dafeiji100 69
+      - https://t.me/dafeiji100 70
+      - https://t.me/dafeiji100 71
+      - https://t.me/dafeiji100 72
+      - https://t.me/dafeiji100 73
+      - https://t.me/dafeiji100 74
+      - https://t.me/dafeiji100 75
+      - https://t.me/dafeiji100 76
+      - https://t.me/dafeiji100 77
+      - https://t.me/dafeiji100 78
+      - https://t.me/dafeiji100 79
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -196,6 +234,25 @@ proxy-groups:
       - https://t.me/dafeiji100 58
       - https://t.me/dafeiji100 59
       - https://t.me/dafeiji100 60
+      - https://t.me/dafeiji100 61
+      - https://t.me/dafeiji100 62
+      - https://t.me/dafeiji100 63
+      - https://t.me/dafeiji100 64
+      - https://t.me/dafeiji100 65
+      - https://t.me/dafeiji100 66
+      - https://t.me/dafeiji100 67
+      - https://t.me/dafeiji100 68
+      - https://t.me/dafeiji100 69
+      - https://t.me/dafeiji100 70
+      - https://t.me/dafeiji100 71
+      - https://t.me/dafeiji100 72
+      - https://t.me/dafeiji100 73
+      - https://t.me/dafeiji100 74
+      - https://t.me/dafeiji100 75
+      - https://t.me/dafeiji100 76
+      - https://t.me/dafeiji100 77
+      - https://t.me/dafeiji100 78
+      - https://t.me/dafeiji100 79
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -262,6 +319,25 @@ proxy-groups:
       - https://t.me/dafeiji100 58
       - https://t.me/dafeiji100 59
       - https://t.me/dafeiji100 60
+      - https://t.me/dafeiji100 61
+      - https://t.me/dafeiji100 62
+      - https://t.me/dafeiji100 63
+      - https://t.me/dafeiji100 64
+      - https://t.me/dafeiji100 65
+      - https://t.me/dafeiji100 66
+      - https://t.me/dafeiji100 67
+      - https://t.me/dafeiji100 68
+      - https://t.me/dafeiji100 69
+      - https://t.me/dafeiji100 70
+      - https://t.me/dafeiji100 71
+      - https://t.me/dafeiji100 72
+      - https://t.me/dafeiji100 73
+      - https://t.me/dafeiji100 74
+      - https://t.me/dafeiji100 75
+      - https://t.me/dafeiji100 76
+      - https://t.me/dafeiji100 77
+      - https://t.me/dafeiji100 78
+      - https://t.me/dafeiji100 79
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -332,6 +408,25 @@ proxy-groups:
       - https://t.me/dafeiji100 58
       - https://t.me/dafeiji100 59
       - https://t.me/dafeiji100 60
+      - https://t.me/dafeiji100 61
+      - https://t.me/dafeiji100 62
+      - https://t.me/dafeiji100 63
+      - https://t.me/dafeiji100 64
+      - https://t.me/dafeiji100 65
+      - https://t.me/dafeiji100 66
+      - https://t.me/dafeiji100 67
+      - https://t.me/dafeiji100 68
+      - https://t.me/dafeiji100 69
+      - https://t.me/dafeiji100 70
+      - https://t.me/dafeiji100 71
+      - https://t.me/dafeiji100 72
+      - https://t.me/dafeiji100 73
+      - https://t.me/dafeiji100 74
+      - https://t.me/dafeiji100 75
+      - https://t.me/dafeiji100 76
+      - https://t.me/dafeiji100 77
+      - https://t.me/dafeiji100 78
+      - https://t.me/dafeiji100 79
   - name: 📲 电报信息
     type: select
     proxies:
@@ -397,6 +492,25 @@ proxy-groups:
       - https://t.me/dafeiji100 58
       - https://t.me/dafeiji100 59
       - https://t.me/dafeiji100 60
+      - https://t.me/dafeiji100 61
+      - https://t.me/dafeiji100 62
+      - https://t.me/dafeiji100 63
+      - https://t.me/dafeiji100 64
+      - https://t.me/dafeiji100 65
+      - https://t.me/dafeiji100 66
+      - https://t.me/dafeiji100 67
+      - https://t.me/dafeiji100 68
+      - https://t.me/dafeiji100 69
+      - https://t.me/dafeiji100 70
+      - https://t.me/dafeiji100 71
+      - https://t.me/dafeiji100 72
+      - https://t.me/dafeiji100 73
+      - https://t.me/dafeiji100 74
+      - https://t.me/dafeiji100 75
+      - https://t.me/dafeiji100 76
+      - https://t.me/dafeiji100 77
+      - https://t.me/dafeiji100 78
+      - https://t.me/dafeiji100 79
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -463,6 +577,25 @@ proxy-groups:
       - https://t.me/dafeiji100 58
       - https://t.me/dafeiji100 59
       - https://t.me/dafeiji100 60
+      - https://t.me/dafeiji100 61
+      - https://t.me/dafeiji100 62
+      - https://t.me/dafeiji100 63
+      - https://t.me/dafeiji100 64
+      - https://t.me/dafeiji100 65
+      - https://t.me/dafeiji100 66
+      - https://t.me/dafeiji100 67
+      - https://t.me/dafeiji100 68
+      - https://t.me/dafeiji100 69
+      - https://t.me/dafeiji100 70
+      - https://t.me/dafeiji100 71
+      - https://t.me/dafeiji100 72
+      - https://t.me/dafeiji100 73
+      - https://t.me/dafeiji100 74
+      - https://t.me/dafeiji100 75
+      - https://t.me/dafeiji100 76
+      - https://t.me/dafeiji100 77
+      - https://t.me/dafeiji100 78
+      - https://t.me/dafeiji100 79
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -538,6 +671,25 @@ proxy-groups:
       - https://t.me/dafeiji100 58
       - https://t.me/dafeiji100 59
       - https://t.me/dafeiji100 60
+      - https://t.me/dafeiji100 61
+      - https://t.me/dafeiji100 62
+      - https://t.me/dafeiji100 63
+      - https://t.me/dafeiji100 64
+      - https://t.me/dafeiji100 65
+      - https://t.me/dafeiji100 66
+      - https://t.me/dafeiji100 67
+      - https://t.me/dafeiji100 68
+      - https://t.me/dafeiji100 69
+      - https://t.me/dafeiji100 70
+      - https://t.me/dafeiji100 71
+      - https://t.me/dafeiji100 72
+      - https://t.me/dafeiji100 73
+      - https://t.me/dafeiji100 74
+      - https://t.me/dafeiji100 75
+      - https://t.me/dafeiji100 76
+      - https://t.me/dafeiji100 77
+      - https://t.me/dafeiji100 78
+      - https://t.me/dafeiji100 79
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
